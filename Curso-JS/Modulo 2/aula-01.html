@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <title>Curso JavaScript</title>
+</head>
+
+<body>
+  <div class="app">
+    <button onclick="mostraAlerta()">Me pressione</button>
+    <br/> <br/>
+    <button onmouseover="mostraOutroAlerta()">Passe o mouse aqui</button>
+    <input onkeypress="mostraMaisUmAlerta()" />
+  </div>
+
+  <script>
+    function mostraAlerta() {
+      alert('Botao foi clicado!');
+    }
+
+    function mostraOutroAlerta() {
+      alert('Passou o mouse por cima?');
+    }
+
+    function mostraMaisUmAlerta() {
+      alert("Botao pressionado!");
+    }
+  </script>
+</body>
+
+</html>
